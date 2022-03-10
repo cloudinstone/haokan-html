@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html style="font-size: 39px;" class="hairlines">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>移动端详情页</title>
@@ -12,12 +13,16 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link href="./css/details-mobile.css" rel="stylesheet">
 </head>
+
 <body>
     <div id="rooot">
         <div class="navigation">
             <div class="navigation-brand"><img src="./images/logo-mobile.png" alt="haokan"></div>
             <div class="navigation-search">
                 <div class="navigation-search-img"></div>
+                <form>
+                    <input class="navigation-search-text" type="search" placeholder="输入关键词">
+                </form>
             </div>
             <div class="navigation-download wx-share-launch">
                 <div>下载APP</div>
@@ -156,6 +161,80 @@
                 </div>
             </div>
         </div>
+
+        <div class="comment-module wx-share-launch" id="comment">
+            <div class="comment-title">全部评论<div class="comment-total-num">(9)</div>
+            </div>
+            <div class="comment-default">
+                <div class="comment-default-avatar"></div>
+                <div class="comment-default-input">说点什么吧...</div>
+            </div>
+            <div class="comment-body">
+                <div class="comment-item">
+                    <div class="item-avatar" style="background-image: url(./images/avatar.jpg);">
+                    </div>
+                    <div class="item-info">
+                        <div class="info-head">
+                            <div class="info-author">评论者名称</div>
+                        </div>
+                        <div class="info-detail">
+                            <div class="info-text">我是一条评论内容。我是一条评论内容。</div>
+                            <div class="detail-bar">
+                                <div class="c-time">昨天</div>
+                                <div class="info-like">
+                                    <div class="reply-lead"><span class="reply-img"></span><span
+                                            class="reply-txt">回复</span></div>
+                                    <div class="like-lead"><span class="like-img"></span><span
+                                            class="like-count">1</span></div>
+                                </div>
+                            </div>
+                            <div class="reply-list">
+                                <div class="left-border"></div>
+                                <div class="right-content">
+                                    <div class="react-slidedown transitioning"
+                                        style="height: 41.4062px; transition-property: height;">
+                                        <div class="replay-item"><span>小尹修工具：</span>我是一条回复</div>
+                                        <div class="replay-item"><span>小尹修工具：</span>我是另一条回复</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-item">
+                    <div class="item-avatar" style="background-image: url(./images/avatar.jpg);">
+                    </div>
+                    <div class="item-info">
+                        <div class="info-head">
+                            <div class="info-author">评论者名称</div>
+                        </div>
+                        <div class="info-detail">
+                            <div class="info-text">我是一条评论内容。我是一条评论内容。</div>
+                            <div class="detail-bar">
+                                <div class="c-time">昨天</div>
+                                <div class="info-like">
+                                    <div class="reply-lead"><span class="reply-img"></span><span
+                                            class="reply-txt">回复</span></div>
+                                    <div class="like-lead"><span class="like-img"></span><span
+                                            class="like-count">1</span></div>
+                                </div>
+                            </div>
+                            <div class="reply-list">
+                                <div class="left-border"></div>
+                                <div class="right-content">
+                                    <div class="react-slidedown transitioning"
+                                        style="height: 41.4062px; transition-property: height;">
+                                        <div class="replay-item"><span>小尹修工具：</span>我是一条回复</div>
+                                        <div class="replay-item"><span>小尹修工具：</span>我是另一条回复</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
